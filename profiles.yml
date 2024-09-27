@@ -1,0 +1,7 @@
+dbt_f1:
+  outputs:
+    dev:
+      schema: dev
+      type: duckdb
+      path: db.duckdb
+  target: dev
